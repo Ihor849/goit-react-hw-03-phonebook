@@ -11,7 +11,7 @@ export const ContactFilter = ({ filter, onFilter, dis }) => {
         name="filter"
         value={filter}
         onChange={onFilter}
-        disabled={dis}
+        // disabled={dis}
       />
     </BoxFilter>
   );
